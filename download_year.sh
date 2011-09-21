@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # Ce script récupère les photos d'une année depuis s3 vers $PHOTOS
 # Attention, le répertoire de l'année doit être présent
 
