@@ -1,0 +1,17 @@
+h1. Prerequis
+
+.bashrc doit comporter une variable PHOTOS pointant sur le répertoire cible des photos
+
+exemple :
+
+export PHOTOS=/media/Lacie/photos
+
+---
+
+ruby thumbs.rb 2010 x all
+./upload_thumbs.sh 2010
+
+h2. Récupération des photos
+
+depuis S3, suppression des photos locales
+Utiliser -n en deuxième paramètre pour tester la commande
