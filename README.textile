@@ -1,17 +1,26 @@
 h1. Prerequis
 
-.bashrc doit comporter une variable PHOTOS pointant sur le répertoire cible des photos
+.bashrc doit comporter les variables d'environnement suivantes :
+* PHOTOS pointant sur le répertoire cible des photos
+* S3_ACCOUNT représente le "bucket" S3
+* S3_xxx 
 
 exemple :
+<pre>export PHOTOS=/media/Lacie/photos</pre>
 
-export PHOTOS=/media/Lacie/photos
+h1. Opérations
 
----
+h3. Mise à jour des photos sur S3
 
+zzz
 ruby thumbs.rb 2010 x all
 ./upload_thumbs.sh 2010
 
-h2. Récupération des photos
+h3. Récupération des photos
 
 depuis S3, suppression des photos locales
 Utiliser -n en deuxième paramètre pour tester la commande
+
+h1. Reste
+
+faire un seul script upload
